@@ -1,0 +1,592 @@
+{
+  "categoryName": "Mobilya",
+  "subcategories": [
+    {
+      "name": "Koltuklar",
+      "parentCategory": "Mobilya"
+    },
+    {
+      "name": "Masa ve Sandalyeler",
+      "parentCategory": "Mobilya"
+    },
+    {
+      "name": "Yatak Odasi Mobilyalari",
+      "parentCategory": "Mobilya"
+    },
+    {
+      "name": "Ofis Mobilyalari",
+      "parentCategory": "Mobilya"
+    },
+    {
+      "name": "Bahçe Mobilyalari",
+      "parentCategory": "Mobilya"
+    }
+  ]
+}
+
+{
+  "categoryName": "Möbel",
+  "subcategories": [
+    {
+      "name": "Sofas",
+      "parentCategory": "Möbel"
+    },
+    {
+      "name": "Tische und Stühle",
+      "parentCategory": "Möbel"
+    },
+    {
+      "name": "Schlafzimmermöbel",
+      "parentCategory": "Möbel"
+    },
+    {
+      "name": "Büromöbel",
+      "parentCategory": "Möbel"
+    },
+    {
+      "name": "Gartenmöbel",
+      "parentCategory": "Möbel"
+    }
+  ]
+}
+
+
+
+{
+  "categoryName": "Elektronik",
+  "subcategories": [
+    {"name": "Audio & Hifi", "parentCategory": "Elektronik"},
+    {"name": "Foto", "parentCategory": "Elektronik"},
+    {"name": "Handy & Telefon", "parentCategory": "Elektronik"},
+    {"name": "Computer & Zubehör", "parentCategory": "Elektronik"},
+    {"name": "TV & Video", "parentCategory": "Elektronik"},
+    {"name": "Videospiele", "parentCategory": "Elektronik"},
+    {"name": "Konsolen", "parentCategory": "Elektronik"},
+    {"name": "Weitere Elektronik", "parentCategory": "Elektronik"}
+  ]
+ },
+
+ {
+  "categoryName": "Fahrzeuge",
+  "subcategories": [
+    {"name": "Autos", "parentCategory": "Fahrzeuge"},
+    {"name": "Motorräder & Motorroller", "parentCategory": "Fahrzeuge"},
+    {"name": "Fahrräder & Zubehör", "parentCategory": "Fahrzeuge"},
+    {"name": "Boote & Bootszubehör", "parentCategory": "Fahrzeuge"},
+    {"name": "Wohnwagen & Wohnmobile", "parentCategory": "Fahrzeuge"},
+    {"name": "Anhänger", "parentCategory": "Fahrzeuge"},
+    {"name": "Autoteile & Reifen", "parentCategory": "Fahrzeuge"},
+    {"name": "LKW & Nutzfahrzeuge", "parentCategory": "Fahrzeuge"},
+    {"name": "Baumaschinen", "parentCategory": "Fahrzeuge"},
+    {"name": "Landmaschinen", "parentCategory": "Fahrzeuge"},
+    {"name": "Flugzeuge & Hubschrauber", "parentCategory": "Fahrzeuge"},
+    {"name": "Oldtimer & Youngtimer", "parentCategory": "Fahrzeuge"}
+  ]
+ },
+
+
+ {
+  "categoryName": "Immobilien",
+  "subcategories": [
+    {"name": "Häuser & Wohnungen", "parentCategory": "Immobilien"},
+    {"name": "Grundstücke", "parentCategory": "Immobilien"},
+    {"name": "Gewerbeimmobilien", "parentCategory": "Immobilien"},
+    {"name": "Mietwohnungen", "parentCategory": "Immobilien"},
+    {"name": "WG-Zimmer", "parentCategory": "Immobilien"},
+    {"name": "Ferienwohnungen & Ferienhäuser", "parentCategory": "Immobilien"},
+    {"name": "Garagen & Stellplätze", "parentCategory": "Immobilien"},
+    {"name": "Immobilienfinanzierung", "parentCategory": "Immobilien"},
+    {"name": "Makler & Verwalter", "parentCategory": "Immobilien"}
+  ]
+ },
+
+
+
+ {
+  "categoryName": "Job & Karriere",
+  "subcategories": [
+    {"name": "Stellenangebote", "parentCategory": "Job & Karriere"},
+    {"name": "Nebenjobs & Minijobs", "parentCategory": "Job & Karriere"},
+    {"name": "Ausbildung & Praktika", "parentCategory": "Job & Karriere"},
+    {"name": "Jobs im Ausland", "parentCategory": "Job & Karriere"},
+    {"name": "Homeoffice & Remote Jobs", "parentCategory": "Job & Karriere"},
+    {"name": "Freiwilligenarbeit & Ehrenamt", "parentCategory": "Job & Karriere"},
+    {"name": "Personal & Jobberatung", "parentCategory": "Job & Karriere"},
+    {"name": "Gehaltsrechner", "parentCategory": "Job & Karriere"}
+  ]
+ },
+
+
+ {
+  "categoryName": "Dienstleistungen",
+  "subcategories": [
+    {"name": "Handwerker & Bau", "parentCategory": "Dienstleistungen"},
+    {"name": "Umzüge & Transporte", "parentCategory": "Dienstleistungen"},
+    {"name": "Reinigung & Entsorgung", "parentCategory": "Dienstleistungen"},
+    {"name": "Garten & Landschaftsbau", "parentCategory": "Dienstleistungen"},
+    {"name": "Veranstaltungsservice", "parentCategory": "Dienstleistungen"},
+    {"name": "IT & Telekommunikation", "parentCategory": "Dienstleistungen"},
+    {"name": "Unternehmensberatung", "parentCategory": "Dienstleistungen"},
+    {"name": "Finanzdienstleistungen", "parentCategory": "Dienstleistungen"},
+    {"name": "Versicherungen", "parentCategory": "Dienstleistungen"},
+    {"name": "Gesundheitswesen", "parentCategory": "Dienstleistungen"},
+    {"name": "Bildung & Ausbildung", "parentCategory": "Dienstleistungen"},
+    {"name": "Recht & Steuern", "parentCategory": "Dienstleistungen"},
+    {"name": "Marketing & Werbung", "parentCategory},
+
+
+{
+"categoryName": "Haushalt & Wohnen",
+ "subcategories": [
+   {"name": "Möbel & Einrichtung", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Haushaltsgeräte", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Küche & Esszimmer", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Schlafzimmer", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Wohnzimmer", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Badezimmer", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Garten & Terrasse", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Baudekoration", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Teppiche & Gardinen", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Heimtextilien", "parentCategory": "Haushalt & Wohnen"},
+   {"name": "Sonstiges", "parentCategory": "Haushalt & Wohnen"}
+ ]
+},
+
+
+{
+ "categoryName": "Mode & Accessoires",
+ "subcategories": [
+   {"name": "Damenbekleidung", "parentCategory": "Mode & Accessoires"},
+   {"name": "Herrenbekleidung", "parentCategory": "Mode & Accessoires"},
+   {"name": "Kinderbekleidung", "parentCategory": "Mode & Accessoires"},
+   {"name": "Schuhe & Taschen", "parentCategory": "Mode & Accessoires"},
+   {"name": "Accessoires", "parentCategory": "Mode & Accessoires"},
+   {"name": "Uhren & Schmuck", "parentCategory": "Mode & Accessoires"},
+   {"name": "Sportbekleidung", "parentCategory": "Mode & Accessoires"},
+   {"name": "Kostüme & Verkleidungen", "parentCategory": "Mode & Accessoires"},
+   {"name": "Vintage & Second Hand", "parentCategory": "Mode & Accessoires"}
+ ]
+},
+
+
+{
+ "categoryName": "Hobby & Freizeit",
+ "subcategories": [
+   {"name": "Bücher & Zeitschriften", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Sammeln & Tauschen", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Musikinstrumente", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Sport & Fitness", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Spiele & Spielzeug", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Hobby & Basteln", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Kunst & Antiquitäten", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Haustiere", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Camping & Outdoor", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Motorrad & Roller", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Veranstaltungen", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Reisen & Urlaub", "parentCategory": "Hobby & Freizeit"},
+   {"name": "Sonstiges", "parentCategory": "Hobby & Freizeit"}
+ ]
+},
+
+
+
+{
+  "categoryName": "Familie, Kind & Baby",
+  "subcategories": [
+    {"name": "Baby- & Kinderkleidung", "parentCategory": "Familie, Kind & Baby"},
+    {"name": "Spielzeug", "parentCategory": "Familie, Kind & Baby"},
+    {"name": "Kinderwagen & Sitze", "parentCategory": "Familie, Kind & Baby"},
+    {"name": "Schwangerschaft", "parentCategory": "Familie, Kind & Baby"},
+    {"name": "Spielzeug Außen", "parentCategory": "Familie, Kind & Baby"},
+    {"name": "Weitere Familie, Kind & Baby", "parentCategory": "Familie, Kind & Baby"}
+  ]
+ },
+
+ 
+ {
+  "categoryName": "Tiermarkt",
+  "subcategories": [
+    {"name": "Hunde", "parentCategory": "Tiermarkt"},
+    {"name": "Katzen", "parentCategory": "Tiermarkt"},
+    {"name": "Pferde", "parentCategory": "Tiermarkt"},
+    {"name": "Kleintiere", "parentCategory": "Tiermarkt"},
+    {"name": "Fische & Aquaristik", "parentCategory": "Tiermarkt"},
+    {"name": "Vögel", "parentCategory": "Tiermarkt"},
+    {"name": "Reptilien", "parentCategory": "Tiermarkt"},
+    {"name": "Landwirtschaftliche Nutztiere", "parentCategory": "Tiermarkt"},
+    {"name": "Reitbeteiligungen", "parentCategory": "Tiermarkt"},
+    {"name": "Tierzubehör", "parentCategory": "Tiermarkt"},
+    {"name": "Tierpensionen", "parentCategory": "Tiermarkt"}
+  ]
+ }
+ 
+
+
+
+{ "categoryName": "Fahrzeuge",
+    "subcategories": [
+      {"name": "Autos"},
+      {"name": "Motorräder & Motorroller"},
+      {"name": "Fahrräder & Zubehör"},
+      {"name": "Boote & Bootszubehör"},
+      {"name": "Wohnwagen & Wohnmobile"},
+      {"name": "Anhänger"},
+      {"name": "Autoteile & Reifen"},
+      {"name": "LKW & Nutzfahrzeuge"},
+      {"name": "Baumaschinen"},
+      {"name": "Landmaschinen"},
+      {"name": "Flugzeuge & Hubschrauber"},
+      {"name": "Oldtimer & Youngtimer"}
+    ]
+  },
+  {
+    "categoryName": "Immobilien",
+    "subcategories": [
+      {"name": "Häuser & Wohnungen"},
+      {"name": "Grundstücke"},
+      {"name": "Gewerbeimmobilien"},
+      {"name": "Mietwohnungen"},
+      {"name": "WG-Zimmer"},
+      {"name": "Ferienwohnungen & Ferienhäuser"},
+      {"name": "Garagen & Stellplätze"},
+      {"name": "Immobilienfinanzierung"},
+      {"name": "Makler & Verwalter"}
+    ]
+  },
+  {
+    "categoryName": "Job & Karriere",
+    "subcategories": [
+      {"name": "Stellenangebote"},
+      {"name": "Nebenjobs & Minijobs"},
+      {"name": "Ausbildung & Praktika"},
+      {"name": "Jobs im Ausland"},
+      {"name": "Homeoffice & Remote Jobs"},
+      {"name": "Freiwilligenarbeit & Ehrenamt"},
+      {"name": "Personal & Jobberatung"},
+      {"name": "Gehaltsrechner"}
+    ]
+  },
+  {
+    "categoryName": "Dienstleistungen",
+    "subcategories": [
+      {"name": "Handwerker & Bau"},
+      {"name": "Umzüge & Transporte"},
+      {"name": "Reinigung & Entsorgung"},
+      {"name": "Garten & Landschaftsbau"},
+      {"name": "Veranstaltungsservice"},
+      {"name": "IT & Telekommunikation"},
+      {"name": "Unternehmensberatung"},
+      {"name": "Finanzdienstleistungen"},
+      {"name": "Versicherungen"},
+      {"name": "Gesundheitswesen"},
+      {"name": "Bildung & Ausbildung"},
+      {"name": "Recht & Steuern"},
+      {"name": "Marketing & Werbung"},
+      {"name": "Fahrzeugaufbereitung"},
+      {"name": "Tierbetreuung"},
+      {"name": "Haushaltshilfen"},
+      {"name": "Wellness & Beauty"},
+      {"name": "Reisen & Freizeit"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Haushalt & Wohnen",
+    "subcategories": [
+      {"name": "Möbel & Einrichtung"},
+      {"name": "Haushaltsgeräte"},
+      {"name": "Küche & Esszimmer"},
+      {"name": "Schlafzimmer"},
+      {"name": "Wohnzimmer"},
+      {"name": "Badezimmer"},
+      {"name": "Garten & Terrasse"},
+      {"name": "Baudekoration"},
+      {"name": "Teppiche & Gardinen"},
+      {"name": "Heimtextilien"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Mode & Accessoires",
+    "subcategories": [
+      {"name": "Damenbekleidung"},
+      {"name": "Herrenbekleidung"},
+      {"name": "Kinderbekleidung"},
+      {"name": "Schuhe & Taschen"},
+      {"name": "Accessoires"},
+      {"name": "Uhren & Schmuck"},
+      {"name": "Sportbekleidung"},
+      {"name": "Kostüme & Verkleidungen"},
+      {"name": "Vintage & Second Hand"}
+    ]
+  },
+  {
+    "categoryName": "Hobby & Freizeit",
+    "subcategories": [
+      {"name": "Bücher & Zeitschriften"},
+      {"name": "Sammeln & Tauschen"},
+      {"name": "Musikinstrumente"},
+      {"name": "Sport & Fitness"},
+      {"name": "Spiele & Spielzeug"},
+      {"name": "Hobby & Basteln"},
+      {"name": "Kunst & Antiquitäten"},
+      {"name": "Haustiere"},
+      {"name": "Camping & Outdoor"},
+      {"name": "Motorrad & Roller"},
+      {"name": "Veranstaltungen"},
+      {"name": "Reisen & Urlaub"},
+      {"name": "Sonstiges"}
+    ]
+  }, 
+  {
+    "categoryName": "Elektronik",
+    "subcategories": [
+      {"name": "Audio & Hifi"},
+      {"name": "Foto"},
+      {"name": "Handy & Telefon"},
+      {"name": "Computer & Zubehör"},
+      {"name": "TV & Video"},
+      {"name": "Videospiele"},
+      {"name": "Konsolen"},
+      {"name": "Weitere Elektronik"}
+    ]
+  },
+  {
+    "categoryName": "Familie, Kind & Baby",
+    "subcategories": [
+      {"name": "Baby- & Kinderkleidung"},
+      {"name": "Spielzeug"},
+      {"name": "Kinderwagen & Sitze"},
+      {"name": "Schwangerschaft"},
+      {"name": "Spielzeug Außen"},
+      {"name": "Weitere Familie, Kind & Baby"}
+    ]
+  },
+  {
+    "categoryName": "Tiermarkt",
+    "subcategories": [
+      {"name": "Hunde"},
+      {"name": "Katzen"},
+      {"name": "Pferde"},
+      {"name": "Kleintiere"},
+      {"name": "Fische & Aquaristik"},
+      {"name": "Vögel"},
+      {"name": "Reptilien"},
+      {"name": "Landwirtschaftliche Nutztiere"},
+      {"name": "Reitbeteiligungen"},
+      {"name": "Tierzubehör"},
+      {"name": "Tierpensionen"}
+    ]
+  },
+  {
+    "categoryName": "Landwirtschaft",
+    "subcategories": [
+      {"name": "Landmaschinen"},
+      {"name": "Melktechnik"},
+      {"name": "Stalltechnik"},
+      {"name": "Anhänger & Transport"},
+      {"name": "Garten & Forst"},
+      {"name": "Viehzucht"},
+      {"name": "Landwirtschaftliche Nutztiere"},
+      {"name": "Saatgut & Dünger"},
+      {"name": "Dienstleistungen"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Handwerk & Bau",
+    "subcategories": [
+      {"name": "Bauarbeiten & Renovierungen"},
+      {"name": "Dach & Fassade"},
+      {"name": "Elektro & Sanitär"},
+      {"name": "Maler & Tapezierer"},
+      {"name": "Fußböden & Fliesen"},
+      {"name": "Türen & Fenster"},
+      {"name": "Heizung & Klima"},
+      {"name": "Garten & Landschaftsbau"},
+      {"name": "Entrümpelung & Entsorgung"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Antiquitäten & Kunst",
+    "subcategories": [
+      {"name": "Möbel & Einrichtung"},
+      {"name": "Gemälde & Skulpturen"},
+      {"name": "Porzellan & Keramik"},
+      {"name": "Uhren & Schmuck"},
+      {"name": "Teppiche & Textilien"},
+      {"name": "Bücher & Dokumente"},
+      {"name": "Militaria"},
+      {"name": "Musikinstrumente"},
+      {"name": "Weitere Antiquitäten & Kunst"}
+    ]
+  },
+  {
+    "categoryName": "Garten & Pflanzen",
+    "subcategories": [
+      {"name": "Gartenpflanzen"},
+      {"name": "Zierpflanzen"},
+      {"name": "Obst & Gemüse"},
+      {"name": "Gartengeräte"},
+      {"name": "Gartenmöbel"},
+      {"name": "Gartenhäuser"},
+      {"name": "Pools & Saunen"},
+      {"name": "Teichbau"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Spielzeug & Spiele",
+    "subcategories": [
+      {"name": "Spielzeug für Babys & Kleinkinder"},
+      {"name": "Spielzeug für Kinder"},
+      {"name": "Modellbau"},
+      {"name": "Gesellschaftsspiele"},
+      {"name": "Sammelkartenspiele"},
+      {"name": "Videospiele"},
+      {"name": "Konsolen"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Sport & Freizeit",
+    "subcategories": [
+      {"name": "Sportbekleidung"},
+      {"name": "Sportgeräte"},
+      {"name": "Fitnessgeräte"},
+      {"name": "Fahrrad & Zubehör"},
+      {"name": "Camping & Outdoor"},
+      {"name": "Reitsport"},
+      {"name": "Wassersport"},
+      {"name": "Wintersport"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Bücher & Zeitschriften",
+    "subcategories": [
+      {"name": "Belletristik"},
+      {"name": "Sachbücher"},
+      {"name": "Kinder- & Jugendbücher"},
+      {"name": "Comics & Mangas"},
+      {"name": "Zeitschriften"},
+      {"name": "Fachzeitschriften"},
+      {"name": "Antiquariat"},
+      {"name": "Musikinstrumente"},
+      {"name": "Weitere Antiquitäten & Kunst"}
+    ]
+  },
+  {
+    "categoryName": "Haushaltsauflösung & Entrümpelung",
+    "subcategories": [
+      {"name": "Haushaltsauflösung"},
+      {"name": "Entrümpelung"},
+      {"name": "Nachlassankauf"},
+      {"name": "Flohmarkt"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Immobilienmakler & Verwalter",
+    "subcategories": [
+      {"name": "Immobilienmakler"},
+      {"name": "Hausverwalter"},
+      {"name": "Wohnungsverwalter"},
+      {"name": "Facility Management"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Dienstleistungen für Unternehmen",
+    "subcategories": [
+      {"name": "Werbung & Marketing"},
+      {"name": "Webdesign & Programmierung"},
+      {"name": "Übersetzung & Dolmetschen"},
+      {"name": "Buchhaltung & Steuerberatung"},
+      {"name": "Rechtsberatung & Inkasso"},
+      {"name": "Personalvermittlung & Recruiting"},
+      {"name": "Unternehmensberatung & Coaching"},
+      {"name": "Logistik & Transport"},
+      {"name": "Eventmanagement"},
+      {"name": "Reinigung & Entsorgung"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Gesundheitswesen & Wellness",
+    "subcategories": [
+      {"name": "Ärzte & Therapeuten"},
+      {"name": "Krankenhäuser & Kliniken"},
+      {"name": "Pflege & Betreuung"},
+      {"name": "Fitness & Wellness"},
+      {"name": "Gesundheitsberatung"},
+      {"name": "Alternative Medizin"},
+      {"name": "Kosmetik & Schönheitspflege"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Bildung & Ausbildung",
+    "subcategories": [
+      {"name": "Schulen & Hochschulen"},
+      {"name": "Weiterbildung & Kurse"},
+      {"name": "Sprachkurse"},
+      {"name": "Nachhilfe & Privatunterricht"},
+      {"name": "Bücher & Lernmaterialien"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Recht & Steuern",
+    "subcategories": [
+      {"name": "Anwälte & Notare"},
+      {"name": "Steuerberater & Wirtschaftsprüfer"},
+      {"name": "Inkasso & Schuldnerberatung"},
+      {"name": "Versicherungsrecht"},
+      {"name": "Arbeitsrecht"},
+      {"name": "Familienrecht"},
+      {"name": "Erbrecht"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Veranstaltungen & Freizeit",
+    "subcategories": [
+      {"name": "Konzerte & Festivals"},
+      {"name": "Theater & Kabarett"},
+      {"name": "Ausstellungen & Messen"},
+      {"name": "Sportveranstaltungen"},
+      {"name": "Kino & Film"},
+      {"name": "Partys & Clubs"},
+      {"name": "Reisen & Urlaub"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Reise & Urlaub",
+    "subcategories": [
+      {"name": "Flüge"},
+      {"name": "Hotels & Unterkünfte"},
+      {"name": "Pauschalreisen"},
+      {"name": "Mietwagen"},
+      {"name": "Ferienwohnungen & Ferienhäuser"},
+      {"name": "Camping & Wohnmobil"},
+      {"name": "Kreuzfahrten"},
+      {"name": "Reiseversicherungen"},
+      {"name": "Reiseführer & Karten"},
+      {"name": "Sonstiges"}
+    ]
+  },
+  {
+    "categoryName": "Sonstiges",
+    "subcategories": [
+      {"name": "Geschenke & Dekoration"},
+      {"name": "Sammeln & Tauschen"},
+      {"name": "Flohmarkt"},
+      {"name": "Verloren & Gefunden"},
+      {"name": "Sonstiges"}
+    ]
+  }
+  
+     

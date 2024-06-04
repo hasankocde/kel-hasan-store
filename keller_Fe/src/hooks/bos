@@ -1,0 +1,201 @@
+import React from "react";
+
+import axios from "axios";
+
+import { useDispatch, useSelector } from "react-redux";
+import {fetchFail, fetchStart, getSuccess} from "../features/kellerSlice";
+import useAxios from "./useAxios";
+import { toastErrorNotify, toastSuccessNotify } from "../helper/ToastNotify";
+
+const useKellerCall  = () => {
+
+  // const BASE_URL = import.meta.env.VITE_BASE_URL;
+  // const { token } = useSelector((state) => state.auth);
+
+  const { axiosWithToken } = useAxios();
+
+  const dispatch = useDispatch();
+
+  
+ 
+
+  const deleteKellerData = async (url, id) => {
+    dispatch(fetchStart());
+    try {
+      // await axios.delete(`${BASE_URL}${url}/${id}`, {
+      //   headers: {
+      //     Authorization: `Token ${token}`,
+      //   },
+      // });
+      await axiosWithToken.delete(`${url}/${id}`);
+      toastSuccessNotify("Operation succes");
+      getKellerData(url);
+    } catch (error) {
+      dispatch(fetchFail());
+      // toastErrorNotify(error?.response?.data?.message || "Operation not success")
+    }
+  };
+
+
+  
+
+
+
+  // const putKellerData = async (url, body) => {
+  //   dispatch(fetchStart());
+  //   try {
+  //     await axiosWithToken.put(`${url}/${body._id}`, body);
+  //     getKellerData(url);
+  //     toastSuccessNotify("Operation succes");
+  //   } catch (error) {
+  //     dispatch(fetchFail());
+  //     toastErrorNotify(error?.response?.data?.message || "Operation not success")
+  //   }
+  // };
+
+  
+  const putKellerData = async (url, body) => {
+    dispatch(fetchStart());
+    try {
+      const { _id, ...rest } = body;
+      await axiosWithToken.put(`${url}/${_id}`, rest);
+      getKellerData(url);
+      toastSuccessNotify("Operation succes");
+    } catch (error) {
+      dispatch(fetchFail());
+      toastErrorNotify(error?.response?.data?.message || "Operation not success");
+    }
+  };
+  
+  const putUserKellerData = async (url, body) => {
+    dispatch(fetchStart());
+    try {
+      const { _id, ...rest } = body;
+      await axiosWithToken.put(`${url}`, rest);
+      getKellerData(url);
+      toastSuccessNotify("Operation successful");
+    } catch (error) {
+      dispatch(fetchFail());
+      toastErrorNotify(error?.response?.data?.message || "Operation not successful");
+    }
+  };
+  
+
+
+ 
+  const getCategories = async () => {
+    dispatch(fetchStart());
+    try {
+        const { data } = await axios.get(`http://127.0.0.1:8000/categories`);
+        dispatch(getSuccess({ data: data.data, url: 'categories' }));
+        // console.log('Data successfully fetched:', data);
+    } catch (error) {
+        dispatch(fetchFail());
+        // console.log('Error fetching data:', error);
+    }
+};
+
+//  const getKellerData = async (url) => {
+//     dispatch(fetchStart());
+//     try {
+     
+//       const { data } = await axiosWithToken.get(`${url}`);
+      
+      
+//       dispatch(getSuccess({ data: data.data, url }));
+
+//       console.log('Data successfully fetched:', data);
+      
+//     } catch (error) {
+//       dispatch(fetchFail());
+//       // console.log(error.response.data.message || "Operation not successful");
+//     }
+//   };
+
+const getKellerData = async (url) => {
+  dispatch(fetchStart());
+  try {
+    const response = await axiosWithToken.get(url);
+    console.log("Data fetched from API:", response); // Log the entire response
+    const { data } = response;
+    
+    dispatch(getSuccess({ data: data.data, url }));
+    console.log("Data successfully dispatched to redux:", data.data); // Log dispatched data
+    
+    return data;
+  } catch (error) {
+    dispatch(fetchFail());
+    console.log("Error fetching data:", error.response?.data?.message || error.message); // Log error message
+    return null; // Return null in case of error
+  }
+};
+
+
+
+
+  // const postKellerData = async (url, body) => {
+  //   dispatch(fetchStart());
+  //   console.log("Post request started");
+  //   try {
+  //     await axiosWithToken.post(`${url}`, body);
+  //     toastSuccessNotify("Operation succes");
+     
+  //   } catch (error) {
+  //     dispatch(fetchFail());
+  //     toastErrorNotify("Operation basarisiz");
+  //     console.log(error)
+  //   }
+  // };
+ 
+
+  const postKellerData = async (url, body) => {
+    dispatch(fetchStart());
+    console.log("Post request started");
+    try {
+      const { data } = await axiosWithToken.post(url, body);
+      toastSuccessNotify("Operation successful");
+      return data; // Return the created data
+    } catch (error) {
+      dispatch(fetchFail());
+      toastErrorNotify("Operation unsuccessful");
+      console.log(error);
+      return null; // Return null in case of error
+    }
+  };
+  
+
+  const postAdKellerData = async (url, body, config = {}) => {
+    dispatch(fetchStart());
+    try {
+      await axiosWithToken.post(`${url}`, body, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+          ...config.headers,
+        },
+        ...config,
+      });
+      toastSuccessNotify("Operation successful");
+    } catch (error) {
+      dispatch(fetchFail());
+      toastErrorNotify("Operation not successful");
+    }
+  };
+
+ 
+
+  return {
+    
+    getCategories,
+    getKellerData,
+    deleteKellerData,
+    postKellerData,
+    postAdKellerData,
+    putKellerData,
+    putUserKellerData
+    
+   
+   
+  };
+};
+
+export default useKellerCall ;
